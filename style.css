@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(251, 247, 247);
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* margin: 15px; */
+    background-color: white;
+}
+
+
+#menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #6a6565;
+    gap: 25px;
+}
+
+#logo{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+#user-name{
+    background-color: rgb(224, 245, 245);
+    height: 7vh;
+    width: 18vh;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(2, 228, 228);
+    border-radius: 5px;
+}
+
+#user-name:hover{
+    background-color: #999;
+    cursor: pointer;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px; */
+        font-family: cursive;
+
+}
+
+.left{
+    width: 50vw;
+    padding: 40px;
+}
+
+.left h1{
+    font-size: 2.3rem;
+    color: rgb(0, 0, 0);
+        margin-bottom: 30px;
+}
+
+.left p{
+    font-size: 1.2rem;
+    color: rgb(122, 115, 115);
+    margin-bottom: 20px;
+}
+
+.left button{
+    background-color: rgb(2, 228, 228);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.right{
+    width: 50vw;
+    /* padding: 10px; */
+}
+
+.right img{
+    width: 80%;
+    /* height: auto; */
+    /* border-radius: 10px; */
+    padding: 30px;
+    min-width: 400px;
+}
+
+.highlight{
+    color: rgb(2, 228, 228);
+    font-size: 2.3rem;
+
+}
